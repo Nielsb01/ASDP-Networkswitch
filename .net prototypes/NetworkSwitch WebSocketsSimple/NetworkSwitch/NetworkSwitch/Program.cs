@@ -1,4 +1,16 @@
-﻿using System;
+﻿/*
+    AIM SD ASD 2020/2021 S2 project
+     
+    Project name: Networkswitch
+ 
+    This file is created by group 5 Wim Beukers
+     
+    Goal of this file: prototype for networkswitch using WebsocketsSimple
+     
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using WebsocketsSimple.Server;
