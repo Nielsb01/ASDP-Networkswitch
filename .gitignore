@@ -369,3 +369,8 @@ ConsoleAppJsonParser/ConsoleAppJsonParser/obj/project.assets.json
 ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.csprojAssemblyReference.cache
 ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.assets.cache
 ConsoleAppJsonParser/ConsoleAppJsonParser/obj/ConsoleAppJsonParser.csproj.nuget.dgspec.json
+*.cache
+*.dll
+*.pdb
+*.dll
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.csproj.FileListAbsolute.txt
