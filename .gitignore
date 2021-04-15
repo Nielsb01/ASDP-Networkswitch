@@ -362,3 +362,10 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .idea
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/project.packagespec.json
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/rider.project.restore.info
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/project.nuget.cache
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/project.assets.json
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.csprojAssemblyReference.cache
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.assets.cache
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/ConsoleAppJsonParser.csproj.nuget.dgspec.json
