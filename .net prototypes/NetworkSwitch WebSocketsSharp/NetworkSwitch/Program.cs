@@ -72,8 +72,23 @@ namespace NetworkSwitch
                 }
             }
 
+
             // send message
-            if(room == null)
+            if(e.Data == "show rooms")
+            {
+                if(rooms.Count == 0)
+                {
+                    Send("No rooms created");
+                }
+                else
+                {
+                    foreach(Room room in rooms)
+                    {
+                        Send($"room {room.GetName()} has {room.GetSumOfConnections()}/8 participants.");
+                    }
+                }
+            }
+            else if (room == null)
             {
                 Send(e.Data);
             }
@@ -125,6 +140,11 @@ namespace NetworkSwitch
         public string GetName()
         {
             return name;
+        }
+
+        public int GetSumOfConnections()
+        {
+            return connectionsIDs.Count;
         }
 
         public void AddToRoom(string ID)
