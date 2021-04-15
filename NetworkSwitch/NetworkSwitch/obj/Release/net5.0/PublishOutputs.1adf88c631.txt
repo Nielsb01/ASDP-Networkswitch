@@ -1,0 +1,6 @@
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Release\net5.0\publish\NetworkSwitch.exe
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Release\net5.0\publish\NetworkSwitch.dll
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Release\net5.0\publish\NetworkSwitch.deps.json
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Release\net5.0\publish\NetworkSwitch.runtimeconfig.json
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Release\net5.0\publish\NetworkSwitch.pdb
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Release\net5.0\publish\websocket-sharp.dll

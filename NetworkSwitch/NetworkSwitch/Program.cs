@@ -53,7 +53,7 @@ namespace NetworkSwitch
     {
         static void Main(string[] args)
         {
-            WebSocketServer wss = new WebSocketServer("ws://localhost:8088");
+            WebSocketServer wss = new WebSocketServer("ws://0.0.0.0:8088");
             wss.AddWebSocketService<Echo>("/Echo");
             wss.AddWebSocketService<EchoAll>("/EchoAll");
 

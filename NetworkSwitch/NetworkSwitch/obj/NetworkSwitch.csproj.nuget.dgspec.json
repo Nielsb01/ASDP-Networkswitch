@@ -1,33 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj": {}
+    "B:\\Git\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj": {
+    "B:\\Git\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
+        "projectUniqueName": "B:\\Git\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
         "projectName": "NetworkSwitch",
-        "projectPath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
-        "packagesPath": "C:\\Users\\wimbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\obj\\",
+        "projectPath": "B:\\Git\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
+        "packagesPath": "C:\\Users\\wheaf\\.nuget\\packages\\",
+        "outputPath": "B:\\Git\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\wheaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.com/api/v4/projects/16962943/packages/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
