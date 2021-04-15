@@ -15,3 +15,4 @@ B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Release\net5.0
 B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Release\net5.0\ref\NetworkSwitch.dll
 B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Release\net5.0\NetworkSwitch.pdb
 B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Release\net5.0\NetworkSwitch.genruntimeconfig.cache
+B:\Git\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Release\net5.0\NetworkSwitch.csprojAssemblyReference.cache

@@ -53,12 +53,13 @@ namespace NetworkSwitch
     {
         static void Main(string[] args)
         {
-            WebSocketServer wss = new WebSocketServer("ws://0.0.0.0:8088");
+            String port = Environment.GetEnvironmentVariable("PORT");
+            WebSocketServer wss = new WebSocketServer($"ws://0.0.0.0:{port}");
             wss.AddWebSocketService<Echo>("/Echo");
             wss.AddWebSocketService<EchoAll>("/EchoAll");
 
             wss.Start();
-            Console.WriteLine("started on port 8088");
+            Console.WriteLine($"started on port {port}");
             Console.ReadKey();
             wss.Stop();
         }
