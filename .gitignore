@@ -372,5 +372,6 @@ ConsoleAppJsonParser/ConsoleAppJsonParser/obj/ConsoleAppJsonParser.csproj.nuget.
 *.cache
 *.dll
 *.pdb
-*.dll
 ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.csproj.FileListAbsolute.txt
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.csprojAssemblyReference.cache
+ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.genruntimeconfig.cache
