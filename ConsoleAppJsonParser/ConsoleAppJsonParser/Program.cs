@@ -38,11 +38,11 @@ namespace ConsoleAppJsonParser
     class PayloadHeader
     {
         public string target { get; set; }
-        public Client origin { get; set; }
+        public PayloadClient origin { get; set; }
         public string actionType { get; set; }
     }
     
-    class Client
+    class PayloadClient
     {
         public string name { get; set; }
         public int id { get; set; }
