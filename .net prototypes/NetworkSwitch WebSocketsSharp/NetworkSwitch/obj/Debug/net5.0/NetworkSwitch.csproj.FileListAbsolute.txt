@@ -1,0 +1,36 @@
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.exe
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.deps.json
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.runtimeconfig.json
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.runtimeconfig.dev.json
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\ref\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.pdb
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.csprojAssemblyReference.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.AssemblyInfoInputs.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.AssemblyInfo.cs
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.csproj.CoreCompileInputs.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.csproj.CopyComplete
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\ref\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.pdb
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.genruntimeconfig.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\NetworkSwitch\NetworkSwitch\bin\Debug\net5.0\websocket-sharp.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.exe
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.deps.json
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.runtimeconfig.json
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.runtimeconfig.dev.json
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\ref\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\NetworkSwitch.pdb
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\bin\Debug\net5.0\websocket-sharp.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.csprojAssemblyReference.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.AssemblyInfoInputs.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.AssemblyInfo.cs
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.csproj.CoreCompileInputs.cache
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.csproj.CopyComplete
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\ref\NetworkSwitch.dll
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.pdb
+C:\Users\wimbe\Documents\GitHub\asd-project-networkhandler\.net prototypes\NetworkSwitch WebSocketsSharp\NetworkSwitch\obj\Debug\net5.0\NetworkSwitch.genruntimeconfig.cache

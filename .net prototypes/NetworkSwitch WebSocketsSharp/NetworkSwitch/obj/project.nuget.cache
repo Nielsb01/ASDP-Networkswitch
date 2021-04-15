@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IXAXzPPcxN6fwYkYg5XRME0xHi0SucLUxdRQUYZ02WdEIxi0mS5KkVG0yWHvqp7H9vVvNksoma2VP1PE1bmyrA==",
+  "dgSpecHash": "UeUKzAd4ojVceJU5GEr/QKpsD4z/n1yd16yjIrG7Gq/vd8SUFZbMayOJ9EHkAoM3dtT8roTKoUs1dCgzQyb6Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
+  "projectFilePath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSharp\\NetworkSwitch\\NetworkSwitch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wimbe\\.nuget\\packages\\websocketsharp-nonprerelease\\1.0.0\\websocketsharp-nonprerelease.1.0.0.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj": {}
+    "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSharp\\NetworkSwitch\\NetworkSwitch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj": {
+    "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSharp\\NetworkSwitch\\NetworkSwitch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
+        "projectUniqueName": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSharp\\NetworkSwitch\\NetworkSwitch.csproj",
         "projectName": "NetworkSwitch",
-        "projectPath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
+        "projectPath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSharp\\NetworkSwitch\\NetworkSwitch.csproj",
         "packagesPath": "C:\\Users\\wimbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\NetworkSwitch\\NetworkSwitch\\obj\\",
+        "outputPath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSharp\\NetworkSwitch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
