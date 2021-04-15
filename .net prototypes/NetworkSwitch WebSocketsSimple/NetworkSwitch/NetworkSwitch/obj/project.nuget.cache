@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "BdgdKufz8fZ9k1ZsdDEDdivp83VA+BnDZFZVjOM9ONTcAiPHbc6hOcyVtQGBU67VxsB3rFCo9vBHRkVJQ4XUbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wimbe\\Documents\\GitHub\\asd-project-networkhandler\\.net prototypes\\NetworkSwitch WebSocketsSimple\\NetworkSwitch\\NetworkSwitch\\NetworkSwitch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wimbe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\phs.core\\2.1.10\\phs.core.2.1.10.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\phs.networking\\2.1.10\\phs.networking.2.1.10.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\phs.networking.server\\2.1.10\\phs.networking.server.2.1.10.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\websocketssimple\\2.1.12\\websocketssimple.2.1.12.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\websocketssimple.client\\2.1.12\\websocketssimple.client.2.1.12.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\websocketssimple.core\\2.1.12\\websocketssimple.core.2.1.12.nupkg.sha512",
+    "C:\\Users\\wimbe\\.nuget\\packages\\websocketssimple.server\\2.1.12\\websocketssimple.server.2.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}
