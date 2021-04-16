@@ -21,8 +21,6 @@ namespace NetworkSwitch
     class Program
     {
         private static IWebsocketServer Server;
-        private List<IConnectionWSServer> RoomlessConnections;
-        private List<List<IConnectionWSServer>> Rooms = new List<List<IConnectionWSServer>>();
 
         static void Main(string[] args)
         {
@@ -66,17 +64,21 @@ namespace NetworkSwitch
         {
             if(args.MessageEventType == PHS.Networking.Enums.MessageEventType.Receive)
             {
-                sendToAll(Server.Connections, args.Message);
+                
+                sendToAllExcept(Server.Connections, args.Connection, args.Message);
             }
             Console.WriteLine("message event");
             return Task.CompletedTask;
         }
 
-        private static async void sendToAll(IConnectionWSServer[] connections, string message)
+        private static async void sendToAllExcept(IConnectionWSServer[] connections, IConnectionWSServer except,  string message)
         {
             foreach (IConnectionWSServer connection in connections)
             {
-                Server.SendToConnectionRawAsync(message, connection);
+                if(connection.ConnectionId != except.ConnectionId)
+                {
+                    Server.SendToConnectionRawAsync(message, connection);
+                }
             }
         }
     }
