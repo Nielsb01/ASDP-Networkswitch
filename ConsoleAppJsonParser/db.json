@@ -1,10 +1,8 @@
 {
     "header": {
       "target": "host",
-      "origin": {
-        "name": "Niels",
-        "id": 1
-      },
+      "originID": "ce4d2959-cc81-4722-8801-eba551735361",
+      "sessionID": 10,
       "actionType": "chat"
     },
     "chatAction": {
@@ -25,5 +23,11 @@
       },
       "hitChance": 18,
       "damage": 7
+    },
+    "joinAction": {
+      "joinAction": "unknown"
+    },
+    "sessionUpdateAction": {
+      "prioritizedHostList": [ "ce4d2959-cc81-4722-8801-eba551735361", "etc" ]
     }
 }
