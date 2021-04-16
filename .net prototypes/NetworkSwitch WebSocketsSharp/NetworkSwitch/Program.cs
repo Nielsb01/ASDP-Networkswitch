@@ -17,12 +17,55 @@ using System.Collections.Generic;
 
 namespace NetworkSwitch
 {
-    public class Echo : WebSocketBehavior
+    // dumb switch prototype
+    public class Relay : WebSocketBehavior
+    {
+        protected override void OnOpen()
+        {
+
+            Console.WriteLine("connection opened");
+            base.OnOpen();
+        }
+
+        protected override void OnMessage(MessageEventArgs e)
+        {
+            sendToAllExcept(ID, e.Data);
+            Console.WriteLine($"message received: {e.Data}");
+            base.OnMessage(e);
+        }
+
+        protected override void OnClose(CloseEventArgs e)
+        {
+            Console.WriteLine("connection closed");
+            base.OnClose(e);
+        }
+
+        protected override void OnError(ErrorEventArgs e)
+        {
+            Console.WriteLine($"error: {e.Message}");
+            base.OnError(e);
+        }
+
+        private void sendToAllExcept(string ID, String message)
+        {
+            foreach(var connection in Sessions.Sessions)
+            {
+                if(connection.ID != ID)
+                {
+                    Sessions.SendTo(message, connection.ID);
+                }
+            }
+        }
+    }
+
+
+    // smarter switch prototype
+    public class EchoRoom : WebSocketBehavior
     {
         private Room room;
         private List<Room> rooms;
 
-        public Echo(List<Room> rooms)
+        public EchoRoom(List<Room> rooms)
         {
             this.rooms = rooms;
         }
@@ -116,7 +159,9 @@ namespace NetworkSwitch
             List<Room> rooms = new List<Room>();
 
             WebSocketServer wss = new WebSocketServer("ws://localhost:8088");
-            wss.AddWebSocketService<Echo>("/Echo", () => new Echo(rooms));
+            wss.AddWebSocketService<EchoRoom>("/Echo", () => new EchoRoom(rooms));
+            wss.AddWebSocketService<Relay>("/Relay");
+
 
             wss.Start();
             Console.WriteLine("started on port 8088");
