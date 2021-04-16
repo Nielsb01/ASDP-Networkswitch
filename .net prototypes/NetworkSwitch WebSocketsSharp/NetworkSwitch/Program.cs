@@ -17,6 +17,24 @@ using System.Collections.Generic;
 
 namespace NetworkSwitch
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Room> rooms = new List<Room>();
+
+            WebSocketServer wss = new WebSocketServer("ws://localhost:8088");
+            wss.AddWebSocketService<EchoRoom>("/Echo", () => new EchoRoom(rooms));
+            wss.AddWebSocketService<Relay>("/Relay");
+
+
+            wss.Start();
+            Console.WriteLine("started on port 8088");
+            Console.ReadKey();
+            wss.Stop();
+        }
+    }
+
     // dumb switch prototype
     public class Relay : WebSocketBehavior
     {
@@ -148,25 +166,6 @@ namespace NetworkSwitch
         {
             Console.WriteLine("connection closed");
             base.OnClose(e);
-        }
-    }
-
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            List<Room> rooms = new List<Room>();
-
-            WebSocketServer wss = new WebSocketServer("ws://localhost:8088");
-            wss.AddWebSocketService<EchoRoom>("/Echo", () => new EchoRoom(rooms));
-            wss.AddWebSocketService<Relay>("/Relay");
-
-
-            wss.Start();
-            Console.WriteLine("started on port 8088");
-            Console.ReadKey();
-            wss.Stop();
         }
     }
 
