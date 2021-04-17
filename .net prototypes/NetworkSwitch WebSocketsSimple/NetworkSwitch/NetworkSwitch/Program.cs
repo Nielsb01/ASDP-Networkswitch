@@ -64,8 +64,8 @@ namespace NetworkSwitch
         {
             if(args.MessageEventType == PHS.Networking.Enums.MessageEventType.Receive)
             {
-                
-                sendToAllExcept(Server.Connections, args.Connection, args.Message);
+                sendToAllExcept(Server.Connections, null, args.Message);
+                //sendToAllExcept(Server.Connections, args.Connection, args.Message);
             }
             Console.WriteLine("message event");
             return Task.CompletedTask;
@@ -75,7 +75,7 @@ namespace NetworkSwitch
         {
             foreach (IConnectionWSServer connection in connections)
             {
-                if(connection.ConnectionId != except.ConnectionId)
+                if(connection.ConnectionId != except?.ConnectionId)
                 {
                     Server.SendToConnectionRawAsync(message, connection);
                 }
