@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{36C06E91-A0FB-4839-A88A-B97C75346E75}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{B30C4E94-0453-4F00-8F4B-0AF24DD823B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{36C06E91-A0FB-4839-A88A-B97C75346E75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientReceiver", "ClientReceiver\ClientReceiver.csproj", "{479739B3-6B36-448F-9686-D628C8F67557}"
 EndProject
@@ -16,10 +14,6 @@ Global
 		{36C06E91-A0FB-4839-A88A-B97C75346E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C06E91-A0FB-4839-A88A-B97C75346E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C06E91-A0FB-4839-A88A-B97C75346E75}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B30C4E94-0453-4F00-8F4B-0AF24DD823B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B30C4E94-0453-4F00-8F4B-0AF24DD823B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B30C4E94-0453-4F00-8F4B-0AF24DD823B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B30C4E94-0453-4F00-8F4B-0AF24DD823B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{479739B3-6B36-448F-9686-D628C8F67557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{479739B3-6B36-448F-9686-D628C8F67557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479739B3-6B36-448F-9686-D628C8F67557}.Release|Any CPU.ActiveCfg = Release|Any CPU
