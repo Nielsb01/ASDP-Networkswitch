@@ -50,7 +50,7 @@ namespace NetworkSwitch
 
         private static System.Threading.Tasks.Task Server_ErrorEvent(object sender, WebsocketsSimple.Server.Events.Args.WSErrorServerEventArgs args)
         {
-            Console.WriteLine("error event");
+            Console.WriteLine($"error event: {args.Exception}");
             return Task.CompletedTask;
         }
 
@@ -64,10 +64,10 @@ namespace NetworkSwitch
         {
             if(args.MessageEventType == PHS.Networking.Enums.MessageEventType.Receive)
             {
-                sendToAllExcept(Server.Connections, null, args.Message);
-                //sendToAllExcept(Server.Connections, args.Connection, args.Message);
+               //sendToAllExcept(Server.Connections, null, args.Message);
+               sendToAllExcept(Server.Connections, args.Connection, args.Message);
             }
-            Console.WriteLine("message event");
+            //Console.WriteLine("message event");
             return Task.CompletedTask;
         }
 

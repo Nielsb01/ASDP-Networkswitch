@@ -23,7 +23,7 @@ namespace NetworkSwitch
         {
             List<Room> rooms = new List<Room>();
 
-            WebSocketServer wss = new WebSocketServer("ws://localhost:8088");
+            WebSocketServer wss = new WebSocketServer("ws://localhost:8089");
             wss.AddWebSocketService<EchoRoom>("/Echo", () => new EchoRoom(rooms));
             wss.AddWebSocketService<Relay>("/Relay");
 
