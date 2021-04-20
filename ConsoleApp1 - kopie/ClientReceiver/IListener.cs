@@ -6,7 +6,7 @@
 // 
 //     Goal of this file: [making_the_system_work]
 
-namespace ConsoleApp1
+namespace ClientReceiver
 {
     public interface IListener
     {

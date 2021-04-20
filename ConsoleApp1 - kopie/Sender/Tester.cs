@@ -8,7 +8,7 @@
 
 using System;
 
-namespace ConsoleApp1
+namespace Sender
 {
     public class Tester
     {
@@ -16,7 +16,9 @@ namespace ConsoleApp1
         {
             IWebsocketClientTest _websocketClientTest;
             _websocketClientTest = new MySocketIoClient();
-            int amount = 1000;
+            // _websocketClientTest = new SimpleSocketClient();
+            // _websocketClientTest = new WebsocketSharpClient();
+            int amount = 100000;
             
             Console.WriteLine("Press enter if connected!");
             Console.ReadLine();

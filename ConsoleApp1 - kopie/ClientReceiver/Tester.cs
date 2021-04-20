@@ -7,7 +7,6 @@
 //     Goal of this file: [making_the_system_work]
 
 using System;
-using ConsoleApp1;
 
 namespace ClientReceiver
 {
@@ -16,7 +15,10 @@ namespace ClientReceiver
         public static void Main(string[] args)
         {
             IListener listener = new MyListener();
-            IWebsocketClientTest client = new MySocketIOClient();
+            IWebsocketClientTest client;
+            client = new MySocketIOClient();
+            // client = new SimpleSocketClient();
+            // client = new WebsocketSharpClient();
             
             client.SetListener(listener);
 

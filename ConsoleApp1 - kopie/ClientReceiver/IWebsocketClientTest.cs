@@ -1,6 +1,4 @@
-using System.Threading.Tasks;
-
-namespace ConsoleApp1
+namespace ClientReceiver
 {
     public abstract class IWebsocketClientTest
     {

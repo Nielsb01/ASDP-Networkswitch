@@ -7,9 +7,8 @@
 //     Goal of this file: [making_the_system_work]
 
 using System;
-using System.Diagnostics;
 
-namespace ConsoleApp1
+namespace ClientReceiver
 {
     public class MyListener : IListener
     {

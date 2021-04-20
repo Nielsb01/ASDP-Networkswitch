@@ -1,7 +1,7 @@
 ﻿using System;
 using SocketIOClient;
 
-namespace ConsoleApp1
+namespace ClientReceiver
 {
     class MySocketIOClient : IWebsocketClientTest
     {

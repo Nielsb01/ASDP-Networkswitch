@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Sender
 {
     public abstract class IWebsocketClientTest
     {

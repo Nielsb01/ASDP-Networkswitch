@@ -3,12 +3,13 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>ConsoleApp1</RootNamespace>
+        <RootNamespace>Sender</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="SocketIOClient" Version="2.1.7" />
-      <PackageReference Include="SocketIOSharp" Version="2.0.3" />
+      <PackageReference Include="WebSocketSharp-NonPreRelease" Version="1.0.0" />
+      <PackageReference Include="WebsocketsSimple.Client" Version="2.1.12" />
     </ItemGroup>
 
 </Project>
