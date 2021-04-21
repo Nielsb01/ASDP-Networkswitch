@@ -18,7 +18,7 @@ using WebsocketsSimple.Server.Models;
 
 namespace NetworkSwitch
 {
-    class Program
+    class NetworkSwitch
     {
         private static IWebsocketServer Server;
 
@@ -64,10 +64,8 @@ namespace NetworkSwitch
         {
             if(args.MessageEventType == PHS.Networking.Enums.MessageEventType.Receive)
             {
-               //sendToAllExcept(Server.Connections, null, args.Message);
                sendToAllExcept(Server.Connections, args.Connection, args.Message);
             }
-            //Console.WriteLine("message event");
             return Task.CompletedTask;
         }
 
