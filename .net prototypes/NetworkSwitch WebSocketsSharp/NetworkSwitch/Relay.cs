@@ -16,7 +16,6 @@ namespace NetworkSwitch
         protected override void OnMessage(MessageEventArgs e)
         {
             sendToAllExcept(ID, e.Data);
-            //Console.WriteLine($"message received: {e.Data}");
             base.OnMessage(e);
         }
 
