@@ -12,9 +12,10 @@ namespace NetworkSwitch
 
         static void Main(string[] args)
         {
+            String port = Environment.GetEnvironmentVariable("PORT");
             IParamsWSServer wsParams = new ParamsWSServer
             {
-                Port = 8088,
+                Port = Int32.Parse(port),
                 ConnectionSuccessString = "Connected Succesfully"
             };
 
@@ -25,7 +26,7 @@ namespace NetworkSwitch
             Server.ServerEvent += Server_ServerEvent;
 
             Server.StartAsync();
-            Console.WriteLine("server starterd on port 8088");
+            Console.WriteLine($"server starterd on port {port}");
             Console.ReadLine();
             Server.StopAsync();
         }
