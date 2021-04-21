@@ -3,7 +3,7 @@
      
     Project name: Networkswitch
  
-    This file is created by group 5 Wim Beukers
+    This file is created by team 5 Wim Beukers
      
     Goal of this file: prototype for networkswitch using WebsocketsSimple
      
