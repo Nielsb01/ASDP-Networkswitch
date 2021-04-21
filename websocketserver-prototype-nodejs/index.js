@@ -1,3 +1,14 @@
+/*
+    AIM SD ASD 2020/2021 S2 project
+
+    Project name: ASD-Project.
+
+    This file is created by team: 5.
+
+    Goal of this file: Node.js websocket server prototype.
+
+*/
+
 const express = require('express');
 const app = express();
 const server = app.listen(process.env.PORT | 3000);
@@ -11,11 +22,10 @@ io.on('connection', (socket) => {
     console.log("New client with id: " + socket.id)
 
     socket.onAny((eventName, msg) => {
-        // console.log(`Broadcasting received event '${eventName}' with payload '${msg}' from '${socket.id}'.`);
         socket.broadcast.emit(eventName, msg);
     });
 
     socket.on("disconnect", (reason) => {
-        // console.log(`Client '${socket.id}' disconnected with reason ${reason}`);
+        console.log(`Client '${socket.id}' disconnected with reason ${reason}`);
     });
 });
