@@ -18,12 +18,11 @@ io.on('connection', (socket) => {
     console.log("New client with id: " + socket.id)
 
     socket.onAny((eventName, msg) => {
-        console.log(`Broadcasting received event '${eventName}' with payload '${msg}' from '${socket.id}'.`);
         socket.broadcast.emit(eventName, msg);
     });
 
     socket.on("disconnect", (reason) => {
-        console.log(`Client '${socket.id}' disconnected with reason ${reason}`);
+        console.log(`Client '${socket.id}' disconnected with reason ${reason}.`);
     });
 });
 
