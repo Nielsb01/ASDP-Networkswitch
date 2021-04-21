@@ -378,3 +378,5 @@ ConsoleAppJsonParser/ConsoleAppJsonParser/obj/Debug/net5.0/ConsoleAppJsonParser.
 bin/
 obj/
 .vs/
+
+.net prototypes/NetworkSwitch WebSocketsSharp/NetworkSwitch/NetworkSwitch.licenseheader
