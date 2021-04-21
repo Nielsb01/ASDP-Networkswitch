@@ -26,6 +26,6 @@ io.on('connection', (socket) => {
     });
 
     socket.on("disconnect", (reason) => {
-        console.log(`Client '${socket.id}' disconnected with reason ${reason}`);
+        console.log(`Client '${socket.id}' disconnected with reason ${reason}.`);
     });
 });
