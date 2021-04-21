@@ -1,3 +1,13 @@
+#
+#    AIM SD ASD 2020/2021 S2 project
+#
+#    Project name: ASD-Project.
+#
+#    This file is created by team: 5.
+#
+#    Goal of this file: Deploy Node.js websocket server.
+#
+
 FROM node:14
 
 # Create app directory
@@ -8,9 +18,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
+RUN npm ci --only=production
 
 # Bundle app source
 COPY . .
