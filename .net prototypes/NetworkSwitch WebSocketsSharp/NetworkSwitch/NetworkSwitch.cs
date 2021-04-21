@@ -14,7 +14,7 @@ using System;
 
 namespace NetworkSwitch
 {
-    class Program
+    class NetworkSwitch
     {
         static void Main(string[] args)
         {
@@ -28,9 +28,6 @@ namespace NetworkSwitch
             WebSocketServer wss = new WebSocketServer($"ws://{ip}:{port}");
 
             wss.AddWebSocketService<Relay>("/Relay");
-
-            //List<Room> rooms = new List<Room>();
-            //wss.AddWebSocketService<EchoRoom>("/Echo", () => new EchoRoom(rooms));
 
             wss.Start();
             Console.WriteLine($"started on port {port}");
