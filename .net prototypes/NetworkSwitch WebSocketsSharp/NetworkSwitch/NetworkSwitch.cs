@@ -1,15 +1,4 @@
-﻿/*
-    AIM SD ASD 2020/2021 S2 project
-     
-    Project name: Networkswitch
- 
-    This file is created by team: 5
-     
-    Goal of this file: prototype for networkswitch using WebSocketSharp
-     
-*/
-
-using WebSocketSharp.Server;
+﻿using WebSocketSharp.Server;
 using System;
 
 namespace NetworkSwitch
