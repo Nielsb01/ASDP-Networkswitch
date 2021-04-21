@@ -33,9 +33,9 @@ namespace Sender
 
         private void OnMessage(object sender, MessageEventArgs e)
         {
-            if (listener != null)
+            if (Listener != null)
             {
-                listener.Receive(e.Data);
+                Listener.Receive(e.Data);
             }
         }
 

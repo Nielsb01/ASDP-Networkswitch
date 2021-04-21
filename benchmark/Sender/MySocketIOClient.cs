@@ -9,9 +9,9 @@ namespace Sender
 
         public MySocketIoClient()
         {
-            client = new SocketIO("http://localhost:3000", new SocketIOOptions
+            client = new SocketIO("http://0.0.0.0:3000", new SocketIOOptions
             {
-                EIO = 4,
+                EIO = 4, // Socket.io protocol version.
                 Reconnection = true
             });
 

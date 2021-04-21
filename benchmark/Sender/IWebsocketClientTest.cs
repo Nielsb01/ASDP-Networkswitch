@@ -4,11 +4,11 @@ namespace Sender
 {
     public abstract class IWebsocketClientTest
     {
-        protected IListener listener;
+        protected IListener Listener;
         public abstract void Send(string message);
         public void SetListener(IListener listener)
         {
-            this.listener = listener;
+            this.Listener = listener;
         }
     }
 }

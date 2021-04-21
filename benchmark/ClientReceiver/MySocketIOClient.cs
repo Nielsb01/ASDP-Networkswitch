@@ -7,17 +7,15 @@ namespace ClientReceiver
     {
         public MySocketIOClient()
         {
-            SocketIO client;
-            
-            client = new SocketIO("http://localhost:3000", new SocketIOOptions
+            var client = new SocketIO("http://0.0.0.0:3000", new SocketIOOptions
             {
-                EIO = 4,
+                EIO = 4, // Socket.io protocol version.
                 Reconnection = true
             });
 
             client.OnReceivedEvent += (sender, e) =>
             {
-                listener.Receive(e.Response.GetValue<string>());
+                Listener.Receive(e.Response.GetValue<string>());
             };
 
             client.OnConnected += (sender, e) =>

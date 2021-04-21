@@ -8,22 +8,22 @@ namespace ClientReceiver
 {
     public class SimpleSocketClient : IWebsocketClientTest
     {
-        private IWebsocketClient client;
+        private IWebsocketClient _client;
 
         public SimpleSocketClient() : base()
         {
-            client = new WebsocketClient(new ParamsWSClient
+            _client = new WebsocketClient(new ParamsWSClient
             {
                 Uri = "localhost",
                 Port = 8088,
                 IsWebsocketSecured = false
             });
 
-            client.MessageEvent += OnMessageEvent;
-            client.ConnectionEvent += OnConnectionEvent;
-            client.ErrorEvent += OnErrorEvent;
+            _client.MessageEvent += OnMessageEvent;
+            _client.ConnectionEvent += OnConnectionEvent;
+            _client.ErrorEvent += OnErrorEvent;
 
-            client.ConnectAsync();
+            _client.ConnectAsync();
         }
 
         private static Task OnErrorEvent(object sender, WSErrorClientEventArgs args)
@@ -41,16 +41,16 @@ namespace ClientReceiver
 
         private Task OnMessageEvent(object sender, WSMessageClientEventArgs args)
         {
-            if(listener != null)
+            if(Listener != null)
             {
-                listener.Receive(args.Message);
+                Listener.Receive(args.Message);
             }
             return Task.CompletedTask;
         }
 
         public override async void Send(string message)
         {
-            await client.SendToServerAsync(message);
+            await _client.SendToServerAsync(message);
         }
     }
 }
