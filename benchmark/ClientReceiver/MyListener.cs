@@ -8,6 +8,7 @@ namespace ClientReceiver
         private long _sum = 0;
         public void Receive(string message)
         {
+            //receive messages and sum the difference between current timestamp and sent timestamp and count messages
             DateTime now = DateTime.UtcNow;
             long unixTimeMilliseconds = new DateTimeOffset(now).ToUnixTimeMilliseconds();
             _sum += unixTimeMilliseconds - long.Parse(message);

@@ -15,6 +15,7 @@ namespace Sender
             Console.WriteLine("Press enter if connected!");
             Console.ReadLine();
             
+            // Send messages to server with current timestamp
             for (var i = 0; i < amount; i++)
             {
                 DateTime now = DateTime.UtcNow;
