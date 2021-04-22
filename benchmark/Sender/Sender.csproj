@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Sender</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SocketIOClient" Version="2.1.7" />
+      <PackageReference Include="WebSocketSharp-NonPreRelease" Version="1.0.0" />
+      <PackageReference Include="WebsocketsSimple.Client" Version="2.1.12" />
+    </ItemGroup>
+
+</Project>
