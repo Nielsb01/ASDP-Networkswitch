@@ -8,7 +8,7 @@ namespace NetworkSwitch
 {
     class NetworkSwitch
     {
-        private static IWebsocketServer Server;
+        private static IWebsocketServer _server;
 
         static void Main(string[] args)
         {
@@ -19,16 +19,16 @@ namespace NetworkSwitch
                 ConnectionSuccessString = "Connected Succesfully"
             };
 
-            Server = new WebsocketServer(wsParams);
-            Server.MessageEvent += Server_MessageEvent;
-            Server.ConnectionEvent += Server_ConnectionEvent;
-            Server.ErrorEvent += Server_ErrorEvent;
-            Server.ServerEvent += Server_ServerEvent;
+            _server = new WebsocketServer(wsParams);
+            _server.MessageEvent += Server_MessageEvent;
+            _server.ConnectionEvent += Server_ConnectionEvent;
+            _server.ErrorEvent += Server_ErrorEvent;
+            _server.ServerEvent += Server_ServerEvent;
 
-            Server.StartAsync();
+            _server.StartAsync();
             Console.WriteLine($"server starterd on port {port}");
             Console.ReadLine();
-            Server.StopAsync();
+            _server.StopAsync();
         }
 
         private static System.Threading.Tasks.Task Server_ServerEvent(object sender, PHS.Networking.Server.Events.Args.ServerEventArgs args)
@@ -53,7 +53,7 @@ namespace NetworkSwitch
         {
             if(args.MessageEventType == PHS.Networking.Enums.MessageEventType.Receive)
             {
-               sendToAllExcept(Server.Connections, args.Connection, args.Message);
+               sendToAllExcept(_server.Connections, args.Connection, args.Message);
             }
             return Task.CompletedTask;
         }
@@ -64,7 +64,7 @@ namespace NetworkSwitch
             {
                 if(connection.ConnectionId != except?.ConnectionId)
                 {
-                    Server.SendToConnectionRawAsync(message, connection);
+                    _server.SendToConnectionRawAsync(message, connection);
                 }
             }
         }
