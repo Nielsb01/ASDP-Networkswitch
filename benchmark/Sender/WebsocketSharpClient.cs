@@ -5,15 +5,15 @@ namespace Sender
 {
     public class WebsocketSharpClient : IWebsocketClientTest
     {
-        private WebSocket websocket;
+        private WebSocket _websocket;
         public WebsocketSharpClient() : base()
         {
-            websocket = new WebSocket("ws://localhost:8089/Relay");
-            websocket.OnMessage += OnMessage;
-            websocket.OnOpen += Websocket_OnOpen;
-            websocket.OnError += Websocket_OnError;
-            websocket.OnClose += Websocket_OnClose;
-            websocket.Connect();
+            _websocket = new WebSocket("ws://localhost:8089/Relay");
+            _websocket.OnMessage += OnMessage;
+            _websocket.OnOpen += Websocket_OnOpen;
+            _websocket.OnError += Websocket_OnError;
+            _websocket.OnClose += Websocket_OnClose;
+            _websocket.Connect();
         }
 
         private void Websocket_OnClose(object sender, CloseEventArgs e)
@@ -41,7 +41,7 @@ namespace Sender
 
         public override void Send(string message)
         {
-            websocket.Send(message);
+            _websocket.Send(message);
         }
     }
 }
